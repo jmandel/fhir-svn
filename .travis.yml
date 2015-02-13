@@ -5,3 +5,4 @@ jdk:
   - oraclejdk7
 script: ./build.sh
 sudo: false
+after_failure: ./fail.sh
